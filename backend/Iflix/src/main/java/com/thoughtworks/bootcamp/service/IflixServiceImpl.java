@@ -4,7 +4,8 @@ import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.thoughtworks.bootcamp.User.User;
+
+import com.thoughtworks.bootcamp.Model.User;
 import com.thoughtworks.bootcamp.dto.LoginDto;
 import com.thoughtworks.bootcamp.repository.UserRepository;
 import com.thoughtworks.bootcamp.response.Response;

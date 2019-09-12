@@ -8,6 +8,8 @@ import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.springframework.beans.factory.annotation.Autowired;
+
+import com.thoughtworks.bootcamp.Model.User;
 import com.thoughtworks.bootcamp.dto.LoginDto;
 import com.thoughtworks.bootcamp.repository.UserRepository;
 import com.thoughtworks.bootcamp.response.Response;

@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
 
-import com.thoughtworks.bootcamp.User.User;
+import com.thoughtworks.bootcamp.Model.User;
 import com.thoughtworks.bootcamp.dto.LoginDto;
 
 @Component

@@ -1,4 +1,4 @@
-package com.thoughtworks.bootcamp.User;
+package com.thoughtworks.bootcamp.Model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
