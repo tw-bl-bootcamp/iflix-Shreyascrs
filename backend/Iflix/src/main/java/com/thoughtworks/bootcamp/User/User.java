@@ -18,10 +18,6 @@ public class User {
 	private String password;
 	private String name;
 
-	public boolean loginValidate(User repositoryUser) {
-		return this.emailId.equals(repositoryUser.emailId) && this.password.equals(repositoryUser.password);
-	}
-
 	public int getUserId() {
 		return userId;
 	}
@@ -56,6 +52,14 @@ public class User {
 
 	public User() {
 
+	}
+
+	public User(int userId, String emailId, @NotNull String password, String name) {
+		super();
+		this.userId = userId;
+		this.emailId = emailId;
+		this.password = password;
+		this.name = name;
 	}
 
 }
