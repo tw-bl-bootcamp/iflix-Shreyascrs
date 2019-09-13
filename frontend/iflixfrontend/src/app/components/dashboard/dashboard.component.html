@@ -1,24 +1,45 @@
 <div style="background-color: black">
     <div>
-        <mat-toolbar>My App</mat-toolbar>
+        <mat-toolbar style="font-family: Verdana, Geneva, Tahoma, sans-serif" style="font-style: italic">IFLIX
+        </mat-toolbar>
     </div>
-    <div fxLayout="column" fxLayoutAlign="center center" style="height: 90vh">
+    <div fxLayout="column" fxLayoutAlign="space-between center" style="height: 90vh">
         <mat-card class="example-card">
             <mat-card-header>
-              <mat-card-title>DAG II</mat-card-title>
-              <mat-card-subtitle>Action Movie</mat-card-subtitle>
+                <mat-card-title>DAG II</mat-card-title>
+                <mat-card-subtitle>Action Movie</mat-card-subtitle>
             </mat-card-header>
-            <img mat-card-image src="../assets/dag2.jpg" alt="Photo of a Shiba Inu">
+            <img mat-card-image src="../assets/dag2.jpg" alt="dag2">
             <mat-card-content>
-              <p>
-                In a desolate war zone where screams of the innocent echo, on the very line between disaster and valor, 7 Maroon Berets will dance with death.
-              </p>
+                <p>
+                    In a desolate war zone where screams of the innocent echo, on the very line between disaster and
+                    valor, 7 Maroon Berets will dance with death.
+                </p>
             </mat-card-content>
             <mat-card-actions>
-              <button mat-button>LIKE</button>
-              <button mat-button>Rating</button><span>4.5/5</span>
-              <button mat-button routerLink="/theator">BOOK NOW</button>
+                <button mat-button>LIKE</button>
+                <button mat-button>Rating</button><span>4.5/5</span>
+                <button mat-button routerLink="/theator">BOOK NOW</button>
             </mat-card-actions>
-          </mat-card>
+        </mat-card>
     </div>
+    <div fxLayout="column" fxLayoutAlign="space-between center" style="height: 90vh">
+            <mat-card class="example-card">
+                <mat-card-header>
+                  <mat-card-title>Operation Red Sea</mat-card-title>
+                  <mat-card-subtitle>Action Movie</mat-card-subtitle>
+                </mat-card-header>
+                <img mat-card-image src="/src/assets/81iecK02D-L._SL1500_.jpg" alt="operation red sea">
+                <mat-card-content>
+                  <p>
+                    It serves as the highlight film presented to audiences as a gift for the 90th anniversary of the founding of the Chinese People's Liberation Army.
+                  </p>
+                </mat-card-content>
+                <mat-card-actions>
+                  <button mat-button>LIKE</button>
+                  <button mat-button>Rating</button><span>4/5</span>
+                  <button mat-button routerLink="/theator">BOOK NOW</button>
+                </mat-card-actions>
+              </mat-card>
+        </div>
 </div>
