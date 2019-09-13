@@ -13,6 +13,15 @@ public class Theator {
 	String name;
 	@NotNull
 	String venue;
+	long movieId;
+
+	public long getMovieId() {
+		return movieId;
+	}
+
+	public void setMovieId(long movieId) {
+		this.movieId = movieId;
+	}
 
 	public long getId() {
 		return id;
