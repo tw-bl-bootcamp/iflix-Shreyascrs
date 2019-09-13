@@ -35,10 +35,11 @@ export class LoginComponent implements OnInit {
     this.userservice.postrequest("login", data).subscribe(
       (response:any)=>{
         console.log("response data==>",response);
+        if(response.statusCode==200){
         localStorage.setItem("token", response.data);
         this.snackBar.open(response.message,'end now',{duration:3000});
         this.router.navigate(['dashboard']);
-      },
+      }},
       error=>{
         console.log("error in login==>",error);
         this.snackBar.open('login Failed','end now ',{duration:3000})

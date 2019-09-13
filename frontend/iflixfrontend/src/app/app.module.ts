@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import {MatCardModule} from '@angular/material';
+import {MatCardModule, MatToolbarModule} from '@angular/material';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './components/login/login.component';
@@ -12,11 +12,13 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { MatSnackBarModule } from '@angular/material';
 import {HttpClientModule} from '@angular/common/http';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { TheatorComponent } from './components/theator/theator.component';
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    DashboardComponent
+    DashboardComponent,
+    TheatorComponent
   ],
   imports: [
     BrowserAnimationsModule,
@@ -32,6 +34,7 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
     ReactiveFormsModule,
     MatSnackBarModule,
     HttpClientModule,
+    MatToolbarModule,
   ],
   providers: [UserService],
   bootstrap: [AppComponent]
